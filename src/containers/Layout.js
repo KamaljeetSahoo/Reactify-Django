@@ -4,6 +4,7 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 const { Header, Content, Footer } = Layout;
 
 const CustomLayout = (props) => {
+    console.log(props.auth)
     return (
         <div>
             <Layout className="layout">

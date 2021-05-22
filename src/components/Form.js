@@ -5,12 +5,11 @@ const FormItem = Form.Item;
 
 const CustomForm = (props) => {
 
-    console.log(props.articleId)
+    //console.log(props.articleId)
     const handleFormSubmit = (event, requestType, articleID) => {
         event.preventDefault()
         const title = event.target.elements.title.value
         const content = event.target.elements.content.value
-        console.log(content, title)
 
         switch(requestType){
             case 'post':
